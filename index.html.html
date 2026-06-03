@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jemputan Kahwin Syauqin & Razin</title>
+  <style>
+    :root{
+      --blue:#1f5f99;
+      --blue-dark:#0e3458;
+      --blue-soft:#dceeff;
+      --gold:#caa65a;
+      --cream:#fffaf2;
+      --text:#18324a;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: Georgia, 'Times New Roman', serif;
+      background: linear-gradient(180deg, #eaf5ff 0%, #ffffff 40%, #d6ecff 100%);
+      color:var(--text);
+      min-height:100vh;
+    }
+    .page{
+      max-width:520px;
+      margin:0 auto;
+      padding:22px 16px 36px;
+    }
+    .card{
+      background:rgba(255,255,255,.92);
+      border:1px solid rgba(31,95,153,.18);
+      border-radius:28px;
+      overflow:hidden;
+      box-shadow:0 18px 45px rgba(14,52,88,.16);
+      position:relative;
+    }
+    .hero{
+      padding:42px 24px 34px;
+      text-align:center;
+      background: radial-gradient(circle at top, #ffffff 0%, #e1f1ff 50%, #c8e5ff 100%);
+      position:relative;
+    }
+    .ornament{
+      width:110px;
+      height:2px;
+      background:var(--gold);
+      margin:16px auto;
+      position:relative;
+    }
+    .ornament:before,.ornament:after{
+      content:'✦';
+      color:var(--gold);
+      position:absolute;
+      top:-12px;
+      font-size:18px;
+    }
+    .ornament:before{left:-18px}.ornament:after{right:-18px}
+    .small{
+      font-family: Arial, sans-serif;
+      letter-spacing:2px;
+      font-size:12px;
+      color:var(--blue-dark);
+      text-transform:uppercase;
+      margin-bottom:12px;
+    }
+    h1{
+      margin:0;
+      font-size:38px;
+      line-height:1.1;
+      color:var(--blue-dark);
+      font-weight:normal;
+    }
+    .amp{font-size:34px;color:var(--gold);display:block;margin:8px 0}
+    .names-sub{
+      margin-top:14px;
+      font-family: Arial, sans-serif;
+      font-size:13px;
+      color:#35566f;
+      line-height:1.6;
+    }
+    .content{padding:26px 22px 28px;text-align:center}
+    .bismillah{font-size:20px;color:var(--blue-dark);margin-bottom:12px}
+    p{font-family: Arial, sans-serif;line-height:1.7;margin:10px 0;font-size:15px}
+    .section{
+      background:var(--cream);
+      border:1px solid rgba(202,166,90,.35);
+      border-radius:20px;
+      padding:18px 15px;
+      margin:18px 0;
+    }
+    .label{
+      font-family:Arial,sans-serif;
+      font-size:12px;
+      letter-spacing:1.5px;
+      text-transform:uppercase;
+      color:var(--blue);
+      font-weight:bold;
+    }
+    .date{
+      font-size:30px;
+      color:var(--blue-dark);
+      margin:8px 0 2px;
+    }
+    .time,.place{font-family:Arial,sans-serif;font-size:15px;line-height:1.5}
+    .place strong{display:block;font-size:17px;color:var(--blue-dark);margin-top:6px}
+    .buttons{display:grid;gap:12px;margin-top:20px}
+    .btn{
+      display:block;
+      text-decoration:none;
+      font-family:Arial,sans-serif;
+      font-weight:bold;
+      padding:14px 16px;
+      border-radius:999px;
+      background:var(--blue);
+      color:white;
+      box-shadow:0 7px 18px rgba(31,95,153,.25);
+    }
+    .btn.secondary{background:white;color:var(--blue-dark);border:1px solid rgba(31,95,153,.35);box-shadow:none}
+    .footer{
+      font-family:Arial,sans-serif;
+      font-size:13px;
+      color:#557086;
+      padding:0 18px 28px;
+      text-align:center;
+      line-height:1.6;
+    }
+    .countdown{
+      display:flex;
+      justify-content:center;
+      gap:8px;
+      margin-top:16px;
+      font-family:Arial,sans-serif;
+    }
+    .box{
+      min-width:66px;
+      padding:10px 8px;
+      border-radius:15px;
+      background:#eef7ff;
+      border:1px solid rgba(31,95,153,.15);
+    }
+    .num{font-size:20px;font-weight:bold;color:var(--blue-dark)}
+    .unit{font-size:10px;text-transform:uppercase;letter-spacing:1px;color:#53728d}
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="card">
+      <div class="hero">
+        <div class="small">Walimatul Urus</div>
+        <h1>NUR SYAUQIN<br><span class="amp">&</span>MUHAMMAD RAZIN</h1>
+        <div class="ornament"></div>
+        <div class="names-sub">
+          NUR SYAUQIN BINTI MISROM<br>
+          &<br>
+          MUHAMMAD RAZIN BIN RAZALI
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="bismillah">بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ</div>
+        <p>Dengan penuh kesyukuran dan rasa hormat, kami menjemput Dato’/Datin/Tuan/Puan/Encik/Cik seisi keluarga ke majlis perkahwinan kami.</p>
+        <p>Semoga dengan kehadiran dan doa restu semua, majlis ini diberkati Allah SWT dan menjadi kenangan terindah buat kami berdua.</p>
+
+        <div class="section">
+          <div class="label">Tarikh Majlis</div>
+          <div class="date">12.12.2026</div>
+          <div class="time">Sabtu · 11:00 pagi</div>
+          <div class="countdown" id="countdown">
+            <div class="box"><div class="num" id="days">0</div><div class="unit">Hari</div></div>
+            <div class="box"><div class="num" id="hours">0</div><div class="unit">Jam</div></div>
+            <div class="box"><div class="num" id="mins">0</div><div class="unit">Minit</div></div>
+          </div>
+        </div>
+
+        <div class="section">
+          <div class="label">Lokasi</div>
+          <div class="place"><strong>DEWAN MAJLIS YONG PENG</strong>Yong Peng, Johor</div>
+        </div>
+
+        <div class="buttons">
+          <a class="btn" href="https://wa.me/60189109238?text=Assalamualaikum%2C%20saya%20ingin%20RSVP%20kehadiran%20ke%20Majlis%20Kahwin%20Syauqin%20%26%20Razin.%20Nama%3A%20%5Bisi%20nama%5D%20%7C%20Bilangan%20hadir%3A%20%5Bisi%20bilangan%5D" target="_blank">RSVP WhatsApp</a>
+          <a class="btn secondary" href="https://www.google.com/maps/search/?api=1&query=Dewan%20Majlis%20Yong%20Peng" target="_blank">Buka Google Maps</a>
+          <a class="btn secondary" href="https://waze.com/ul?q=Dewan%20Majlis%20Yong%20Peng&navigate=yes" target="_blank">Buka Waze</a>
+        </div>
+      </div>
+
+      <div class="footer">
+        “Ya Allah, satukanlah hati kedua mempelai ini dalam kasih sayang-Mu, rahmat-Mu dan keberkatan-Mu.”<br><br>
+        Terima kasih atas doa dan kehadiran anda.
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const eventDate = new Date('2026-12-12T11:00:00+08:00').getTime();
+    function updateCountdown(){
+      const now = new Date().getTime();
+      const distance = eventDate - now;
+      if(distance <= 0){
+        document.getElementById('countdown').innerHTML = '<div class="box"><div class="num">Hari Ini</div><div class="unit">Majlis</div></div>';
+        return;
+      }
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const mins = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      document.getElementById('days').textContent = days;
+      document.getElementById('hours').textContent = hours;
+      document.getElementById('mins').textContent = mins;
+    }
+    updateCountdown();
+    setInterval(updateCountdown, 60000);
+  </script>
+</body>
+</html>
